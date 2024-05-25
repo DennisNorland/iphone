@@ -1,0 +1,302 @@
+/* nav */
+
+nav{
+    width: 100%;
+    height: auto;
+    background-image: url(../IPHONES/img/bg-header-mobile.png);
+    background-position: center;
+    background-size: cover;
+}
+
+nav #first{
+    padding-top: 30px;
+    text-align: center;
+   cursor: pointer;
+}
+
+/* section */
+
+.showcase{
+width: 100%;
+text-align: center;
+margin: 20px 0;
+}
+
+.showcase h1{
+    font-weight: 30px;
+}
+
+
+/* section 1*/
+
+.section1{
+    width: 100%;
+}
+
+.mtn{
+    text-align: center;
+}
+
+.mtn h1{
+    font-size: 30px;
+}
+
+.flexbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.apple{
+    width: 40%;
+}
+.apple img{
+    width: 100%;
+    margin-top: 90px;
+}
+.three p{
+font-size: 20px;
+}
+.three{
+width: 40%;
+margin-left: 25px;
+}
+
+/* section 2 */
+
+.section2{
+    width: 100%;
+}
+
+.end{
+    text-align: center;
+}
+
+.end h1{
+    font-size: 40px;
+}
+
+.position{
+   text-align: center;
+}
+.position img{
+    width: 90%;
+}
+
+/* flex */
+
+.flex{
+    width: 100%;
+}
+
+.space{
+    text-align: center;
+    margin-top: 30px;
+}
+.space h1{
+font-weight: bold;
+}
+
+#dicks{
+    padding: 3vw 3vw 3vw 3vw;
+    display: flex;
+    text-align: center;
+}
+
+.smile img{
+    padding: 3vw 3vw 3vw 3vw;
+    margin-left: 20px;
+}
+
+/* hkboy */
+
+.hkboy{
+    width: 100%;
+    text-align: center;
+}
+
+.btn1{
+    width: 150px;
+    height: 30px;
+    margin: 20px;
+    border-radius: 15px;
+    background-color: lightgreen;
+}
+
+ .btn1:hover{
+    background-color: red;
+    cursor: pointer;
+}
+
+
+.btn2{
+    width: 150px;
+    height: 30px;
+    margin: 20px;
+    border-radius: 15px;
+    background-color: rgb(44, 165, 206);
+}
+
+ .btn2:hover{
+    background-color: yellow;
+    cursor: pointer;
+}
+
+/* footer */
+
+footer{
+    width: 100%;
+    background-image: url(../IPHONES/img/bg-header-desktop.png);
+}
+
+.all{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.fa-sharp{
+    color: lightgreen;
+    font-size: 50px;
+  
+}
+
+
+@media (min-width: 700px){
+    .showcase p{
+        font-size: 30px;
+    }
+    .btn1{
+        width: 155px;
+        height: 40px;
+        font-size: 18px;
+    }
+    .btn2{
+        width: 155px;
+        height: 40px;
+        font-size: 17px;
+    }
+    .flexbox {
+        display: flex;
+        flex-direction: row;
+    }
+    .favour{
+        width: 100%;
+    }
+    .three{
+    width: 100%;
+    }
+    .mtn p{
+        font-size: 30px;
+    }
+    .three{
+        font-size: 35px;
+    }
+    .end{
+        font-size: 30px;
+    }
+    .space{
+        font-size: 30px;
+    }
+    .iterm1{
+        font-size: 30px;
+    }
+    .iterm2{
+        font-size: 30px;
+    }
+    .iterm3{
+        font-size: 30px;
+    }
+    .hkboy{
+    font-size: 30px;
+}
+.all h3{
+    font-size: 30px;
+}
+.all{
+    display: flex;
+}
+}
+
+
+@media screen and (max-width :600px) {
+
+    .showcase p{
+        font-size: 25px;
+    }
+    .btn1{
+        width: 155px;
+        height: 40px;
+        font-size: 18px;
+    }
+    .btn2{
+        width: 155px;
+        height: 40px;
+        font-size: 17px;
+    }
+
+    .flexbox {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .apple{
+        width: 100%;
+    }
+    .apple img{
+        width: 100%;
+    }
+    .three{
+    width: 100%;
+    margin: 3px;
+    text-align: center;
+    }
+    .mtn p{
+        font-size: 25px;
+    }
+    .three{
+        font-size: 35px;
+    }
+    .end{
+        font-size: 25px;
+    }
+    .space{
+        font-size: 25px;
+    }
+
+    #dicks{
+        display: flex;
+        flex-direction: column;
+        padding: 3vw 3vw 3vw 3vw;
+    }
+    .iterm1{
+        font-size: 25px;
+    }
+    .iterm2{
+        font-size: 25px;
+    }
+    .iterm3{
+        font-size: 25px;
+    }
+
+    #buttons{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .smile{
+        display: flex;
+        flex-direction: column;
+        padding: 3vw 3vw 3vw 3vw;
+    }
+    
+    .hkboy{
+    font-size: 25px;
+}
+.all{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+}
+}
